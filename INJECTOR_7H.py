@@ -1,11 +1,7 @@
 import os
 import sys
-import git
 import random
-import heroku3
 from datetime import datetime
-from​ .. ​import str1, ​DEV​, ​HEROKU_APP_NAME​, ​HEROKU_API_KEY
-from .. import CMD_HNDLR as hl
 from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
@@ -13,7 +9,6 @@ from telethon.tl.functions.account import UpdateProfileRequest
 from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29, STRING30
 import asyncio
 import telethon.utils
-from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
@@ -88,7 +83,7 @@ str30 = ""
 
 que = {}
 
-SMEX_USERS = [5046719296]
+SMEX_USERS = []
 for x in SUDO:
     SMEX_USERS.append(x)
     
@@ -903,53 +898,52 @@ async def gifspam(e, smex):
         pass
 
 
-Heroku = heroku3.from_key(HEROKU_API_KEY)
-heroku_api = "https://api.heroku.com"
-sudousers = os.environ.get("SUDO_USERS", None)
-
-
-@str1.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
-async def tb(event):
-    if event.sender_id in DEV:
-        ok = await event.reply("Adding user as a sudo...")
-        lucifer = "SUDO_USER"
-        if HEROKU_APP_NAME is not None:
-            app = Heroku.app(HEROKU_APP_NAME)
+@str1.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str2.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str3.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str4.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str5.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str6.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str7.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str8.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str9.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str10.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str11.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str12.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str13.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str14.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str15.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str16.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str17.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str18.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str19.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str20.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str21.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str22.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str23.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str24.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str25.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str26.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str27.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str28.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str29.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@str30.on(events.NewMessage(incoming=True, pattern=r"\.bio"))        
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
+    if e.sender_id in SMEX_USERS:
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
+        if len(e.text) > 5:
+            bio = str(yukki[0])
+            text = "Changing Bio"
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await e.client(functions.account.UpdateProfileRequest(about=bio))
+                await event.edit("Succesfully Changed Bio")
+            except Exception as e:
+                await event.edit(str(e))   
         else:
-            await ok.edit("`[HEROKU]:" "\nPlease setup your` **HEROKU_APP_NAME**")
-            return
-        heroku_var = app.config()
-        if event is None:
-            return
-        try:
-            target = await get_user(event)
-        except Exception:
-            await ok.edit(f"Reply to a user.")
-        if sudousers:
-            newsudo = f"{sudousers} {target}"
-        else:
-            newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
-        heroku_var[lucifer] = newsudo
-
-        
-
-async def get_user(event):
-    if event.reply_to_msg_id:
-        previous_message = await event.get_reply_message()
-        if previous_message.forward:
-            replied_user = await event.client(
-                GetFullUserRequest(previous_message.forward.sender_id)
-            )
-        else:
-            replied_user = await event.client(
-                GetFullUserRequest(previous_message.sender_id)
-            )
-    target = replied_user.user.id
-    return target
-
-
-
+            await e.reply(usage, parse_mode=None, link_preview=None )
+            
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.join"))
@@ -1093,10 +1087,6 @@ async def _(e):
                 
         
         
-
-
-
-
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1362,6 +1352,7 @@ async def spam(e):
 
 
 
+
 @str1.on(events.NewMessage(incoming=True))
 @str2.on(events.NewMessage(incoming=True))
 @str3.on(events.NewMessage(incoming=True))
@@ -1534,6 +1525,48 @@ async def _(e):
     
        
 
+@str1.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str2.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str3.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str4.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str5.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str6.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str7.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str8.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str9.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str10.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str11.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str12.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str13.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str14.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str15.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str16.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str17.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str18.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str19.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str20.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str21.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str22.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str23.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str24.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str25.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str26.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str27.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str28.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str29.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str30.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
+        start = datetime.now()
+        text = "Pong!"
+        event = await e.reply(text, parse_mode=None, link_preview=None )
+        end = datetime.now()
+        ms = (end-start).microseconds / 1000
+        await event.edit(f"🤤𝐆𝐀𝐍𝐃 !\n`{ms}` 𝗺𝘀\n           ⚔️𝟳𝗛 𝗦𝗣𝗔𝗠𝗕𝗢𝗧⚔️")
+
+
+
+
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -1573,8 +1606,8 @@ async def alive(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f".🤖 I Am Still alive Lomdike !!!!\n`{ms}` 𝗺𝘀\n          〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄")
         
+                      
         
-
 
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1777,11 +1810,11 @@ async def help(e):
 
     
         
-text = """𝟳𝗛 𝗦𝗣𝗔𝗠𝗠𝗘𝗥 𝗕𝗢𝗧"""
+text = """𝟳𝗛 𝗦𝗣𝗔𝗠𝗕𝗢𝗧"""
 
 print(text)
 print("")
-print("DONE! 〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄 STARTED.\nNOW ADD YOUR SPAMMERBOT IN ONE GROUP THEM TYPE .alive With Sudo Account")
+print("SMEX! 𝟳𝗛 𝗦𝗣𝗔𝗠𝗕𝗢𝗧 STARTED.")
 if len(sys.argv) not in (1, 3, 4):
     try:
         str1.disconnect()
@@ -2024,4 +2057,3 @@ else:
         str30.run_until_disconnected()
     except Exception as e:
         pass
-

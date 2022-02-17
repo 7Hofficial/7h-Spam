@@ -1,4 +1,3 @@
-
 {
   "name": "♛ ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT ♛",
   "description": "A Powerful Telegram SpammerBot based on telethon.",
@@ -173,7 +172,7 @@
       },
       "SUDO": {
         "description": "Fill all Sudo Users Id",
-        "value": "2092103173",
+        "value": "",
         "required": true
       }
   },
