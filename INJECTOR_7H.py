@@ -897,53 +897,6 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.bio"))        
-async def _(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
-    if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
-        if len(e.text) > 5:
-            bio = str(yukki[0])
-            text = "Changing Bio"
-            event = await e.reply(text, parse_mode=None, link_preview=None )
-            try:
-                await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio")
-            except Exception as e:
-                await event.edit(str(e))   
-        else:
-            await e.reply(usage, parse_mode=None, link_preview=None )
-            
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.join"))
