@@ -119,7 +119,7 @@ async def start_yukki():
     global xtr29
     global xtr30
     if smex:
-        session_name = xtr(smex)
+        session_name = str(smex)
         print("String 1 Found")
         xtr1 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -144,7 +144,7 @@ async def start_yukki():
             pass
    
     if smexx:
-        session_name = xtr(smexx)
+        session_name = str(smexx)
         print("String 2 Found")
         xtr2 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -169,7 +169,7 @@ async def start_yukki():
             pass
 
     if smexxx:
-        session_name = xtr(smexxx)
+        session_name = str(smexxx)
         print("String 3 Found")
         xtr3 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -194,7 +194,7 @@ async def start_yukki():
             pass
 
     if smexxxx:
-        session_name = xtr(smexxxx)
+        session_name = str(smexxxx)
         print("String 4 Found")
         xtr4 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -219,7 +219,7 @@ async def start_yukki():
             pass
 
     if smexxxxx:
-        session_name = xtr(smexxxxx)
+        session_name = str(smexxxxx)
         print("String 5 Found")
         xtr5 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -244,7 +244,7 @@ async def start_yukki():
             pass
                   
     if sixth:
-        session_name = xtr(sixth)
+        session_name = str(sixth)
         print("String 6 Found")
         xtr6 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -269,7 +269,7 @@ async def start_yukki():
             pass
 
     if seven:
-        session_name = xtr(seven)
+        session_name = str(seven)
         print("String 7 Found")
         xtr7 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -295,7 +295,7 @@ async def start_yukki():
         
     
     if eight:
-        session_name = xtr(eight)
+        session_name = str(eight)
         print("String 8 Found")
         xtr8 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -320,7 +320,7 @@ async def start_yukki():
             pass   
         
     if ninth:
-        session_name = xtr(ninth)
+        session_name = str(ninth)
         print("String 9 Found")
         xtr10 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -346,7 +346,7 @@ async def start_yukki():
     
   
     if tenth:
-        session_name = xtr(tenth)
+        session_name = str(tenth)
         print("String 10 Found")
         xtr9 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -370,7 +370,7 @@ async def start_yukki():
         except Exception as e:
             pass 
     if eleventh:
-        session_name = xtr(eleventh)
+        session_name = str(eleventh)
         print("String 11 Found")
         xtr11 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -395,7 +395,7 @@ async def start_yukki():
             pass
    
     if twelve:
-        session_name = xtr(twelve)
+        session_name = str(twelve)
         print("String 12 Found")
         xtr12 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -420,7 +420,7 @@ async def start_yukki():
             pass
 
     if thirteen:
-        session_name = xtr(thirteen)
+        session_name = str(thirteen)
         print("String 13 Found")
         xtr13 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -445,7 +445,7 @@ async def start_yukki():
             pass
 
     if fourteen:
-        session_name = xtr(fourteen)
+        session_name = str(fourteen)
         print("String 14 Found")
         xtr14 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -470,7 +470,7 @@ async def start_yukki():
             pass
 
     if fifteen:
-        session_name = xtr(fifteen)
+        session_name = str(fifteen)
         print("String 15 Found")
         xtr15 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -495,7 +495,7 @@ async def start_yukki():
             pass
                   
     if sixteen:
-        session_name = xtr(sixteen)
+        session_name = str(sixteen)
         print("String 16 Found")
         xtr16 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -520,7 +520,7 @@ async def start_yukki():
             pass
 
     if seventeen:
-        session_name = xtr(seventeen)
+        session_name = str(seventeen)
         print("String 17 Found")
         xtr17 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -546,7 +546,7 @@ async def start_yukki():
         
     
     if eighteen:
-        session_name = xtr(eighteen)
+        session_name = str(eighteen)
         print("String 18 Found")
         xtr18 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -571,7 +571,7 @@ async def start_yukki():
             pass   
         
     if nineteen:
-        session_name = xtr(nineteen)
+        session_name = str(nineteen)
         print("String 19 Found")
         xtr19 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -598,7 +598,7 @@ async def start_yukki():
     
   
     if twenty:
-        session_name = xtr(twenty)
+        session_name = str(twenty)
         print("String 20 Found")
         xtr20 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -624,7 +624,7 @@ async def start_yukki():
         
 
     if twentyone:
-        session_name = xtr(twentyone)
+        session_name = str(twentyone)
         print("String 21 Found")
         xtr21 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -649,7 +649,7 @@ async def start_yukki():
             pass
    
     if twentytwo:
-        session_name = xtr(twentytwo)
+        session_name = str(twentytwo)
         print("String 22 Found")
         xtr22 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -674,7 +674,7 @@ async def start_yukki():
             pass
 
     if twentythree:
-        session_name = xtr(twentythree)
+        session_name = str(twentythree)
         print("String 23 Found")
         xtr23 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -699,7 +699,7 @@ async def start_yukki():
             pass
 
     if twentyfour:
-        session_name = xtr(twentyfour)
+        session_name = str(twentyfour)
         print("String 24 Found")
         xtr24 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -724,7 +724,7 @@ async def start_yukki():
             pass
 
     if twentyfive:
-        session_name = xtr(twentyfive)
+        session_name = str(twentyfive)
         print("String 25 Found")
         xtr25 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -749,7 +749,7 @@ async def start_yukki():
             pass
                   
     if twentysix:
-        session_name = xtr(twentysix)
+        session_name = str(twentysix)
         print("String 26 Found")
         xtr26 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -774,7 +774,7 @@ async def start_yukki():
             pass
 
     if twentyseven:
-        session_name = xtr(twentyseven)
+        session_name = str(twentyseven)
         print("String 27 Found")
         xtr27 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -800,7 +800,7 @@ async def start_yukki():
         
     
     if twentyeight:
-        session_name = xtr(twentyeight)
+        session_name = str(twentyeight)
         print("String 28 Found")
         xtr28 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -825,7 +825,7 @@ async def start_yukki():
             pass   
         
     if twentynine:
-        session_name = xtr(twentynine)
+        session_name = str(twentynine)
         print("String 29 Found")
         xtr29 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -852,7 +852,7 @@ async def start_yukki():
     
   
     if thirty:
-        session_name = xtr(thirty)
+        session_name = str(thirty)
         print("String 30 Found")
         xtr30 = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -880,7 +880,7 @@ async def start_yukki():
 
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_yukki())       
+loop.run_until_complete(start_yukki()       
 
 async def gifspam(e, smex):
     try:
