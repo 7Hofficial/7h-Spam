@@ -49,36 +49,36 @@ twentynine = STRING29
 thirty = STRING30
 
 
-str1 = ""
-str2 = ""
-str3 = ""
-str5 = ""
-str4 = ""
-str6 = ""
-str7 = ""
-str8 = ""
-str9 = ""
-str10 = ""
-str11 = ""
-str12 = ""
-str13 = ""
-str14 = ""
-str15 = ""
-str16 = ""
-str17 = ""
-str18 = ""
-str19 = ""
-str20 = ""
-str21 = ""
-str22 = ""
-str23 = ""
-str24 = ""
-str25 = ""
-str26 = ""
-str27 = ""
-str28 = ""
-str29 = ""
-str30 = ""
+xtr1 = ""
+xtr2 = ""
+xtr3 = ""
+xtr5 = ""
+xtr4 = ""
+xtr6 = ""
+xtr7 = ""
+xtr8 = ""
+xtr9 = ""
+xtr10 = ""
+xtr11 = ""
+xtr12 = ""
+xtr13 = ""
+xtr14 = ""
+xtr14 = ""
+xtr16 = ""
+xtr17 = ""
+xtr18 = ""
+xtr19 = ""
+xtr20 = ""
+xtr21 = ""
+xtr22 = ""
+xtr23 = ""
+xtr24 = ""
+xtr25 = ""
+xtr26 = ""
+xtr27 = ""
+xtr28 = ""
+xtr29 = ""
+xtr30 = ""
 
 
 que = {}
@@ -88,71 +88,71 @@ for x in SUDO:
     SMEX_USERS.append(x)
     
 async def start_yukki():
-    global str1
-    global str2
-    global str3
-    global str5
-    global str4
-    global str6
-    global str7
-    global str8
-    global str9
-    global str10
-    global str11
-    global str12
-    global str13
-    global str14
-    global str15
-    global str16
-    global str17
-    global str18
-    global str19
-    global str20
-    global str21
-    global str22
-    global str23
-    global str24
-    global str25
-    global str26
-    global str27
-    global str28
-    global str29
-    global str30
+    global xtr1
+    global xtr2
+    global xtr3
+    global xtr5
+    global xtr4
+    global xtr6
+    global xtr7
+    global xtr8
+    global xtr9
+    global xtr10
+    global xtr11
+    global xtr12
+    global xtr13
+    global xtr14
+    global xtr14
+    global xtr16
+    global xtr17
+    global xtr18
+    global xtr19
+    global xtr20
+    global xtr21
+    global xtr22
+    global xtr23
+    global xtr24
+    global xtr25
+    global xtr26
+    global xtr27
+    global xtr28
+    global xtr29
+    global xtr30
     if smex:
-        session_name = str(smex)
+        session_name = xtr(smex)
         print("String 1 Found")
-        str1 = TelegramClient(StringSession(session_name), a, b)
+        xtr1 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 1")
-            await str1.start()
-            botme = await str1.get_me()
-            await str1(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str1(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            await xtr1.start()
+            botme = await xtr1.get_me()
+            await xtr1(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr1(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            str1 = "smex"
+            xtr1 = "smex"
             print(e)
             pass
     else:
         print("Session 1 not Found")
         session_name = "startup"
-        str1 = TelegramClient(session_name, a, b)
+        xtr1 = TelegramClient(session_name, a, b)
         try:
-            await str1.start()
+            await xtr1.start()
         except Exception as e:
             pass
    
     if smexx:
-        session_name = str(smexx)
+        session_name = xtr(smexx)
         print("String 2 Found")
-        str2 = TelegramClient(StringSession(session_name), a, b)
+        xtr2 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 2")
-            await str2.start()
-            await str2(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str2(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str2.get_me()
+            await xtr2.start()
+            await xtr2(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr2(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr2.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -162,22 +162,22 @@ async def start_yukki():
         print("Session 2 not Found")
         pass
         session_name = "startup"
-        str2 = TelegramClient(session_name, a, b)
+        xtr2 = TelegramClient(session_name, a, b)
         try:
-            await str2.start()
+            await xtr2.start()
         except Exception as e:
             pass
 
     if smexxx:
-        session_name = str(smexxx)
+        session_name = xtr(smexxx)
         print("String 3 Found")
-        str3 = TelegramClient(StringSession(session_name), a, b)
+        xtr3 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 3")
-            await  str3.start()
-            await str3(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str3(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str3.get_me()
+            await  xtr3.start()
+            await xtr3(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr3(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr3.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -187,22 +187,22 @@ async def start_yukki():
         print("Session 3 not Found")
         pass
         session_name = "startup"
-        str3 = TelegramClient(session_name, a, b)
+        xtr3 = TelegramClient(session_name, a, b)
         try:
-            await str3.start()
+            await xtr3.start()
         except Exception as e:
             pass
 
     if smexxxx:
-        session_name = str(smexxxx)
+        session_name = xtr(smexxxx)
         print("String 4 Found")
-        str4 = TelegramClient(StringSession(session_name), a, b)
+        xtr4 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 4")
-            await str4.start()
-            await str4(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str4(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str4.get_me()
+            await xtr4.start()
+            await xtr4(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr4(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr4.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -212,22 +212,22 @@ async def start_yukki():
         print("Session 4 not Found")
         pass
         session_name = "startup"
-        str4 = TelegramClient(session_name, a, b)
+        xtr4 = TelegramClient(session_name, a, b)
         try:
-            await str4.start()
+            await xtr4.start()
         except Exception as e:
             pass
 
     if smexxxxx:
-        session_name = str(smexxxxx)
+        session_name = xtr(smexxxxx)
         print("String 5 Found")
-        str5 = TelegramClient(StringSession(session_name), a, b)
+        xtr5 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 5")
-            await str5.start()
-            await str5(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str5(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str5.get_me()
+            await xtr5.start()
+            await xtr5(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr5(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr5.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -237,22 +237,22 @@ async def start_yukki():
         print("Session 5 not Found")
         pass
         session_name = "startup"
-        str5 = TelegramClient(session_name, a, b)
+        xtr5 = TelegramClient(session_name, a, b)
         try:
-            await str5.start()
+            await xtr5.start()
         except Exception as e:
             pass
                   
     if sixth:
-        session_name = str(sixth)
+        session_name = xtr(sixth)
         print("String 6 Found")
-        str6 = TelegramClient(StringSession(session_name), a, b)
+        xtr6 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 6")
-            await str6.start()
-            await str6(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str6(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str6.get_me()
+            await xtr6.start()
+            await xtr6(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr6(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr6.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -262,22 +262,22 @@ async def start_yukki():
         print("Session 6 not Found")
         pass
         session_name = "startup"
-        str6 = TelegramClient(session_name, a, b)
+        xtr6 = TelegramClient(session_name, a, b)
         try:
-            await str6.start()
+            await xtr6.start()
         except Exception as e:
             pass
 
     if seven:
-        session_name = str(seven)
+        session_name = xtr(seven)
         print("String 7 Found")
-        str7 = TelegramClient(StringSession(session_name), a, b)
+        xtr7 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 7")
-            await str7.start()
-            await str7(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str7(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str7.get_me()
+            await xtr7.start()
+            await xtr7(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr7(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr7.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -287,23 +287,23 @@ async def start_yukki():
         print("Session 7 not Found")
         pass
         session_name = "startup"
-        str7 = TelegramClient(session_name, a, b)
+        xtr7 = TelegramClient(session_name, a, b)
         try:
-            await str7.start()
+            await xtr7.start()
         except Exception as e:
             pass    
         
     
     if eight:
-        session_name = str(eight)
+        session_name = xtr(eight)
         print("String 8 Found")
-        str8 = TelegramClient(StringSession(session_name), a, b)
+        xtr8 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 8")
-            await str8.start()
-            await str8(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str8(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str8.get_me()
+            await xtr8.start()
+            await xtr8(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr8(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr8.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -313,22 +313,22 @@ async def start_yukki():
         print("Session 8 not Found")
         pass
         session_name = "startup"
-        str8 = TelegramClient(session_name, a, b)
+        xtr8 = TelegramClient(session_name, a, b)
         try:
-            await str8.start()
+            await xtr8.start()
         except Exception as e:
             pass   
         
     if ninth:
-        session_name = str(ninth)
+        session_name = xtr(ninth)
         print("String 9 Found")
-        str10 = TelegramClient(StringSession(session_name), a, b)
+        xtr10 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 9")
-            await str10.start()
-            await str10(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str10(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str10.get_me()
+            await xtr10.start()
+            await xtr10(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr10(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr10.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -338,23 +338,23 @@ async def start_yukki():
         print("Session 9 not Found")
         pass
         session_name = "startup"
-        str10 = TelegramClient(session_name, a, b)
+        xtr10 = TelegramClient(session_name, a, b)
         try:
-            await str10.start()
+            await xtr10.start()
         except Exception as e:
             pass   
     
   
     if tenth:
-        session_name = str(tenth)
+        session_name = xtr(tenth)
         print("String 10 Found")
-        str9 = TelegramClient(StringSession(session_name), a, b)
+        xtr9 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 10")
-            await str9.start()
-            await str9(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str9(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str9.get_me()
+            await xtr9.start()
+            await xtr9(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr9(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr9.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -364,46 +364,46 @@ async def start_yukki():
         print("Session 10 not Found")
         pass
         session_name = "startup"
-        str9 = TelegramClient(session_name, a, b)
+        xtr9 = TelegramClient(session_name, a, b)
         try:
-            await str9.start()
+            await xtr9.start()
         except Exception as e:
             pass 
     if eleventh:
-        session_name = str(eleventh)
+        session_name = xtr(eleventh)
         print("String 11 Found")
-        str11 = TelegramClient(StringSession(session_name), a, b)
+        xtr11 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 11")
-            await str11.start()
-            botme = await str11.get_me()
-            await str11(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str11(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            await xtr11.start()
+            botme = await xtr11.get_me()
+            await xtr11(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr11(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            str11 = "eleventh"
+            xtr11 = "eleventh"
             print(e)
             pass
     else:
         print("Session 11 not Found")
         session_name = "startup"
-        str11 = TelegramClient(session_name, a, b)
+        xtr11 = TelegramClient(session_name, a, b)
         try:
-            await str11.start()
+            await xtr11.start()
         except Exception as e:
             pass
    
     if twelve:
-        session_name = str(twelve)
+        session_name = xtr(twelve)
         print("String 12 Found")
-        str12 = TelegramClient(StringSession(session_name), a, b)
+        xtr12 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 12")
-            await str12.start()
-            await str12(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str12(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str12.get_me()
+            await xtr12.start()
+            await xtr12(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr12(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr12.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -413,22 +413,22 @@ async def start_yukki():
         print("Session 12 not Found")
         pass
         session_name = "startup"
-        str12 = TelegramClient(session_name, a, b)
+        xtr12 = TelegramClient(session_name, a, b)
         try:
-            await str12.start()
+            await xtr12.start()
         except Exception as e:
             pass
 
     if thirteen:
-        session_name = str(thirteen)
+        session_name = xtr(thirteen)
         print("String 13 Found")
-        str13 = TelegramClient(StringSession(session_name), a, b)
+        xtr13 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 13")
-            await  str13.start()
-            await str13(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str13(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str13.get_me()
+            await  xtr13.start()
+            await xtr13(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr13(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr13.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -438,22 +438,22 @@ async def start_yukki():
         print("Session 13 not Found")
         pass
         session_name = "startup"
-        str13 = TelegramClient(session_name, a, b)
+        xtr13 = TelegramClient(session_name, a, b)
         try:
-            await str13.start()
+            await xtr13.start()
         except Exception as e:
             pass
 
     if fourteen:
-        session_name = str(fourteen)
+        session_name = xtr(fourteen)
         print("String 14 Found")
-        str14 = TelegramClient(StringSession(session_name), a, b)
+        xtr14 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 14")
-            await str14.start()
-            await str14(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str14(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str14.get_me()
+            await xtr14.start()
+            await xtr14(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr14(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr14.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -463,22 +463,22 @@ async def start_yukki():
         print("Session 14 not Found")
         pass
         session_name = "startup"
-        str14 = TelegramClient(session_name, a, b)
+        xtr14 = TelegramClient(session_name, a, b)
         try:
-            await str14.start()
+            await xtr14.start()
         except Exception as e:
             pass
 
     if fifteen:
-        session_name = str(fifteen)
+        session_name = xtr(fifteen)
         print("String 15 Found")
-        str15 = TelegramClient(StringSession(session_name), a, b)
+        xtr15 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 15")
-            await str15.start()
-            await str15(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str15(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str15.get_me()
+            await xtr15.start()
+            await xtr15(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr15(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr15.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -488,22 +488,22 @@ async def start_yukki():
         print("Session 15 not Found")
         pass
         session_name = "startup"
-        str15 = TelegramClient(session_name, a, b)
+        xtr15 = TelegramClient(session_name, a, b)
         try:
-            await str15.start()
+            await xtr15.start()
         except Exception as e:
             pass
                   
     if sixteen:
-        session_name = str(sixteen)
+        session_name = xtr(sixteen)
         print("String 16 Found")
-        str16 = TelegramClient(StringSession(session_name), a, b)
+        xtr16 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 16")
-            await str16.start()
-            await str16(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str16(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str16.get_me()
+            await xtr16.start()
+            await xtr16(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr16(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr16.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -513,22 +513,22 @@ async def start_yukki():
         print("Session 16 not Found")
         pass
         session_name = "startup"
-        str16 = TelegramClient(session_name, a, b)
+        xtr16 = TelegramClient(session_name, a, b)
         try:
-            await str16.start()
+            await xtr16.start()
         except Exception as e:
             pass
 
     if seventeen:
-        session_name = str(seventeen)
+        session_name = xtr(seventeen)
         print("String 17 Found")
-        str17 = TelegramClient(StringSession(session_name), a, b)
+        xtr17 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 17")
-            await str17.start()
-            await str17(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str17(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str17.get_me()
+            await xtr17.start()
+            await xtr17(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr17(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr17.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -538,23 +538,23 @@ async def start_yukki():
         print("Session 17 not Found")
         pass
         session_name = "startup"
-        str17 = TelegramClient(session_name, a, b)
+        xtr17 = TelegramClient(session_name, a, b)
         try:
-            await str17.start()
+            await xtr17.start()
         except Exception as e:
             pass    
         
     
     if eighteen:
-        session_name = str(eighteen)
+        session_name = xtr(eighteen)
         print("String 18 Found")
-        str18 = TelegramClient(StringSession(session_name), a, b)
+        xtr18 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 18")
-            await str18.start()
-            await str18(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str18(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str18.get_me()
+            await xtr18.start()
+            await xtr18(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr18(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr18.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -564,22 +564,22 @@ async def start_yukki():
         print("Session 18 not Found")
         pass
         session_name = "startup"
-        str18 = TelegramClient(session_name, a, b)
+        xtr18 = TelegramClient(session_name, a, b)
         try:
-            await str18.start()
+            await xtr18.start()
         except Exception as e:
             pass   
         
     if nineteen:
-        session_name = str(nineteen)
+        session_name = xtr(nineteen)
         print("String 19 Found")
-        str19 = TelegramClient(StringSession(session_name), a, b)
+        xtr19 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 19")
-            await str19.start()
-            await str19(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str19(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str19.get_me()
+            await xtr19.start()
+            await xtr19(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr19(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr19.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -589,24 +589,24 @@ async def start_yukki():
         print("Session 19 not Found")
         pass
         session_name = "startup"
-        str19 = TelegramClient(session_name, a, b)
+        xtr19 = TelegramClient(session_name, a, b)
         try:
-            await str19.start()
+            await xtr19.start()
         except Exception as e:
             pass   
         
     
   
     if twenty:
-        session_name = str(twenty)
+        session_name = xtr(twenty)
         print("String 20 Found")
-        str20 = TelegramClient(StringSession(session_name), a, b)
+        xtr20 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 20")
-            await str20.start()
-            await str20(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str20(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str20.get_me()
+            await xtr20.start()
+            await xtr20(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr20(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr20.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -616,48 +616,48 @@ async def start_yukki():
         print("Session 20 not Found")
         pass
         session_name = "startup"
-        str20 = TelegramClient(session_name, a, b)
+        xtr20 = TelegramClient(session_name, a, b)
         try:
-            await str20.start()
+            await xtr20.start()
         except Exception as e:
             pass   
         
 
     if twentyone:
-        session_name = str(twentyone)
+        session_name = xtr(twentyone)
         print("String 21 Found")
-        str21 = TelegramClient(StringSession(session_name), a, b)
+        xtr21 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 21")
-            await str21.start()
-            botme = await str21.get_me()
-            await str21(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str21(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            await xtr21.start()
+            botme = await xtr21.get_me()
+            await xtr21(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr21(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            str21 = "twentyone"
+            xtr21 = "twentyone"
             print(e)
             pass
     else:
         print("Session 21 not Found")
         session_name = "startup"
-        str21 = TelegramClient(session_name, a, b)
+        xtr21 = TelegramClient(session_name, a, b)
         try:
-            await str21.start()
+            await xtr21.start()
         except Exception as e:
             pass
    
     if twentytwo:
-        session_name = str(twentytwo)
+        session_name = xtr(twentytwo)
         print("String 22 Found")
-        str22 = TelegramClient(StringSession(session_name), a, b)
+        xtr22 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 22")
-            await str22.start()
-            await str22(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str22(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str22.get_me()
+            await xtr22.start()
+            await xtr22(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr22(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr22.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -667,22 +667,22 @@ async def start_yukki():
         print("Session 22 not Found")
         pass
         session_name = "startup"
-        str22 = TelegramClient(session_name, a, b)
+        xtr22 = TelegramClient(session_name, a, b)
         try:
-            await str22.start()
+            await xtr22.start()
         except Exception as e:
             pass
 
     if twentythree:
-        session_name = str(twentythree)
+        session_name = xtr(twentythree)
         print("String 23 Found")
-        str23 = TelegramClient(StringSession(session_name), a, b)
+        xtr23 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 23")
-            await  str23.start()
-            await str23(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str23(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str23.get_me()
+            await  xtr23.start()
+            await xtr23(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr23(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr23.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -692,22 +692,22 @@ async def start_yukki():
         print("Session 23 not Found")
         pass
         session_name = "startup"
-        str23 = TelegramClient(session_name, a, b)
+        xtr23 = TelegramClient(session_name, a, b)
         try:
-            await str23.start()
+            await xtr23.start()
         except Exception as e:
             pass
 
     if twentyfour:
-        session_name = str(twentyfour)
+        session_name = xtr(twentyfour)
         print("String 24 Found")
-        str24 = TelegramClient(StringSession(session_name), a, b)
+        xtr24 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 24")
-            await str24.start()
-            await str24(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str24(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str24.get_me()
+            await xtr24.start()
+            await xtr24(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr24(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr24.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -717,22 +717,22 @@ async def start_yukki():
         print("Session 24 not Found")
         pass
         session_name = "startup"
-        str24 = TelegramClient(session_name, a, b)
+        xtr24 = TelegramClient(session_name, a, b)
         try:
-            await str24.start()
+            await xtr24.start()
         except Exception as e:
             pass
 
     if twentyfive:
-        session_name = str(twentyfive)
+        session_name = xtr(twentyfive)
         print("String 25 Found")
-        str25 = TelegramClient(StringSession(session_name), a, b)
+        xtr25 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 25")
-            await str25.start()
-            await str25(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str25(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str25.get_me()
+            await xtr25.start()
+            await xtr25(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr25(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr25.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -742,22 +742,22 @@ async def start_yukki():
         print("Session 25 not Found")
         pass
         session_name = "startup"
-        str25 = TelegramClient(session_name, a, b)
+        xtr25 = TelegramClient(session_name, a, b)
         try:
-            await str25.start()
+            await xtr25.start()
         except Exception as e:
             pass
                   
     if twentysix:
-        session_name = str(twentysix)
+        session_name = xtr(twentysix)
         print("String 26 Found")
-        str26 = TelegramClient(StringSession(session_name), a, b)
+        xtr26 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 26")
-            await str26.start()
-            await str26(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str26(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str26.get_me()
+            await xtr26.start()
+            await xtr26(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr26(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr26.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -767,22 +767,22 @@ async def start_yukki():
         print("Session 26 not Found")
         pass
         session_name = "startup"
-        str26 = TelegramClient(session_name, a, b)
+        xtr26 = TelegramClient(session_name, a, b)
         try:
-            await str26.start()
+            await xtr26.start()
         except Exception as e:
             pass
 
     if twentyseven:
-        session_name = str(twentyseven)
+        session_name = xtr(twentyseven)
         print("String 27 Found")
-        str27 = TelegramClient(StringSession(session_name), a, b)
+        xtr27 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 27")
-            await str27.start()
-            await str27(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str27(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str27.get_me()
+            await xtr27.start()
+            await xtr27(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr27(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr27.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -792,23 +792,23 @@ async def start_yukki():
         print("Session 27 not Found")
         pass
         session_name = "startup"
-        str27 = TelegramClient(session_name, a, b)
+        xtr27 = TelegramClient(session_name, a, b)
         try:
-            await str27.start()
+            await xtr27.start()
         except Exception as e:
             pass    
         
     
     if twentyeight:
-        session_name = str(twentyeight)
+        session_name = xtr(twentyeight)
         print("String 28 Found")
-        str28 = TelegramClient(StringSession(session_name), a, b)
+        xtr28 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 28")
-            await str28.start()
-            await str28(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str28(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str28.get_me()
+            await xtr28.start()
+            await xtr28(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr28(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr28.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -818,22 +818,22 @@ async def start_yukki():
         print("Session 28 not Found")
         pass
         session_name = "startup"
-        str28 = TelegramClient(session_name, a, b)
+        xtr28 = TelegramClient(session_name, a, b)
         try:
-            await str28.start()
+            await xtr28.start()
         except Exception as e:
             pass   
         
     if twentynine:
-        session_name = str(twentynine)
+        session_name = xtr(twentynine)
         print("String 29 Found")
-        str29 = TelegramClient(StringSession(session_name), a, b)
+        xtr29 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 29")
-            await str29.start()
-            await str29(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str29(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str29.get_me()
+            await xtr29.start()
+            await xtr29(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr29(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr29.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -843,24 +843,24 @@ async def start_yukki():
         print("Session 29 not Found")
         pass
         session_name = "startup"
-        str29 = TelegramClient(session_name, a, b)
+        xtr29 = TelegramClient(session_name, a, b)
         try:
-            await str29.start()
+            await xtr29.start()
         except Exception as e:
             pass   
         
     
   
     if thirty:
-        session_name = str(thirty)
+        session_name = xtr(thirty)
         print("String 30 Found")
-        str30 = TelegramClient(StringSession(session_name), a, b)
+        xtr30 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 30")
-            await str30.start()
-            await str30(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
-            await str30(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
-            botme = await str30.get_me()
+            await xtr30.start()
+            await xtr30(functions.channels.JoinChannelRequest(channel="@CHAT_INJECTOR7H"))
+            await xtr30(functions.channels.JoinChannelRequest(channel="@INJECTOR_7H"))
+            botme = await xtr30.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -870,9 +870,9 @@ async def start_yukki():
         print("Session 30 not Found")
         pass
         session_name = "startup"
-        str30 = TelegramClient(session_name, a, b)
+        xtr30 = TelegramClient(session_name, a, b)
         try:
-            await str30.start()
+            await xtr30.start()
         except Exception as e:
             pass 
 
@@ -897,85 +897,36 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-
-
-
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.bio"))        
-async def _(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
-    if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
-        if len(e.text) > 5:
-            bio = str(yukki[0])
-            text = "Changing Bio"
-            event = await e.reply(text, parse_mode=None, link_preview=None )
-            try:
-                await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio")
-            except Exception as e:
-                await event.edit(str(e))   
-        else:
-            await e.reply(usage, parse_mode=None, link_preview=None )
-            
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.join"))       
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.join"))       
 async def _(e):
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗝𝗼𝗶𝗻×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
@@ -992,36 +943,36 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))        
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))        
 async def _(e):
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
@@ -1039,36 +990,36 @@ async def _(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
             
         
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.leave"))       
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.leave"))       
 async def _(e):
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗟𝗲𝗮𝘃𝗲×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
@@ -1089,36 +1040,36 @@ async def _(e):
                 
         
         
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 async def spam(e):
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
@@ -1150,36 +1101,36 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
             
 
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 async def spam(e):
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -1219,36 +1170,36 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 async def spam(e):
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗕𝗶𝗴𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -1284,36 +1235,36 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗥𝗮𝗶𝗱×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -1355,36 +1306,36 @@ async def spam(e):
 
 
 
-@str1.on(events.NewMessage(incoming=True))
-@str2.on(events.NewMessage(incoming=True))
-@str3.on(events.NewMessage(incoming=True))
-@str4.on(events.NewMessage(incoming=True))
-@str5.on(events.NewMessage(incoming=True))
-@str6.on(events.NewMessage(incoming=True))
-@str7.on(events.NewMessage(incoming=True))
-@str8.on(events.NewMessage(incoming=True))
-@str9.on(events.NewMessage(incoming=True))
-@str10.on(events.NewMessage(incoming=True))
-@str11.on(events.NewMessage(incoming=True))
-@str12.on(events.NewMessage(incoming=True))
-@str13.on(events.NewMessage(incoming=True))
-@str14.on(events.NewMessage(incoming=True))
-@str15.on(events.NewMessage(incoming=True))
-@str16.on(events.NewMessage(incoming=True))
-@str17.on(events.NewMessage(incoming=True))
-@str18.on(events.NewMessage(incoming=True))
-@str19.on(events.NewMessage(incoming=True))
-@str20.on(events.NewMessage(incoming=True))
-@str21.on(events.NewMessage(incoming=True))
-@str22.on(events.NewMessage(incoming=True))
-@str23.on(events.NewMessage(incoming=True))
-@str24.on(events.NewMessage(incoming=True))
-@str25.on(events.NewMessage(incoming=True))
-@str26.on(events.NewMessage(incoming=True))
-@str27.on(events.NewMessage(incoming=True))
-@str28.on(events.NewMessage(incoming=True))
-@str29.on(events.NewMessage(incoming=True))
-@str30.on(events.NewMessage(incoming=True))
+@xtr1.on(events.NewMessage(incoming=True))
+@xtr2.on(events.NewMessage(incoming=True))
+@xtr3.on(events.NewMessage(incoming=True))
+@xtr4.on(events.NewMessage(incoming=True))
+@xtr5.on(events.NewMessage(incoming=True))
+@xtr6.on(events.NewMessage(incoming=True))
+@xtr7.on(events.NewMessage(incoming=True))
+@xtr8.on(events.NewMessage(incoming=True))
+@xtr9.on(events.NewMessage(incoming=True))
+@xtr10.on(events.NewMessage(incoming=True))
+@xtr11.on(events.NewMessage(incoming=True))
+@xtr12.on(events.NewMessage(incoming=True))
+@xtr13.on(events.NewMessage(incoming=True))
+@xtr14.on(events.NewMessage(incoming=True))
+@xtr15.on(events.NewMessage(incoming=True))
+@xtr16.on(events.NewMessage(incoming=True))
+@xtr17.on(events.NewMessage(incoming=True))
+@xtr18.on(events.NewMessage(incoming=True))
+@xtr19.on(events.NewMessage(incoming=True))
+@xtr20.on(events.NewMessage(incoming=True))
+@xtr21.on(events.NewMessage(incoming=True))
+@xtr22.on(events.NewMessage(incoming=True))
+@xtr23.on(events.NewMessage(incoming=True))
+@xtr24.on(events.NewMessage(incoming=True))
+@xtr25.on(events.NewMessage(incoming=True))
+@xtr26.on(events.NewMessage(incoming=True))
+@xtr27.on(events.NewMessage(incoming=True))
+@xtr28.on(events.NewMessage(incoming=True))
+@xtr29.on(events.NewMessage(incoming=True))
+@xtr30.on(events.NewMessage(incoming=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -1397,38 +1348,39 @@ async def _(event):
             entity=event.chat_id,
             message="""{}""".format(random.choice(RRAID)),
             reply_to=event.message.id,
-        )
+        )           
             
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+            
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 async def _(e):
     global que
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱×××】\n\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>"
@@ -1461,36 +1413,36 @@ async def _(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
             
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 async def _(e):
     global que
     usage = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱×××】\n【﻿Command :】\n\n.dreplyraid <Username of User>\n\n.dreplyraid <reply to a User>"
@@ -1526,36 +1478,36 @@ async def _(e):
     
        
 
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
@@ -1568,36 +1520,36 @@ async def ping(e):
 
 
 
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr15.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 async def alive(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
@@ -1610,158 +1562,158 @@ async def alive(e):
                       
         
 
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "【﻿ＲＥＳＴＡＲＴＩＮＧ】!!!\nPʟᴇᴀꜱᴇ Wᴀɪᴛ Tɪʟʟ lᴛ Rᴇʙᴏᴏᴛꜱ..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
-            await str1.disconnect()
+            await xtr1.disconnect()
         except Exception as e:
             pass
         try:
-            await str2.disconnect()
+            await xtr2.disconnect()
         except Exception as e:
             pass
         try:
-            await str3.disconnect()
+            await xtr3.disconnect()
         except Exception as e:
             pass
         try:
-            await str4.disconnect()
+            await xtr4.disconnect()
         except Exception as e:
             pass
         try:
-            await str5.disconnect()
+            await xtr5.disconnect()
         except Exception as e:
             pass
         try:
-            await str6.disconnect()
+            await xtr6.disconnect()
         except Exception as e:
             pass
         try:
-            await str7.disconnect()
+            await xtr7.disconnect()
         except Exception as e:
             pass
         try:
-            await str8.disconnect()
+            await xtr8.disconnect()
         except Exception as e:
             pass
         try:
-            await str10.disconnect()
+            await xtr10.disconnect()
         except Exception as e:
             pass
         try:
-            await str9.disconnect()
+            await xtr9.disconnect()
         except Exception as e:
             pass
         try:
-            await str11.disconnect()
+            await xtr11.disconnect()
         except Exception as e:
             pass
         try:
-            await str12.disconnect()
+            await xtr12.disconnect()
         except Exception as e:
             pass
         try:
-            await str13.disconnect()
+            await xtr13.disconnect()
         except Exception as e:
             pass
         try:
-            await str14.disconnect()
+            await xtr14.disconnect()
         except Exception as e:
             pass
         try:
-            await str15.disconnect()
+            await xtr15.disconnect()
         except Exception as e:
             pass
         try:
-            await str16.disconnect()
+            await xtr16.disconnect()
         except Exception as e:
             pass
         try:
-            await str17.disconnect()
+            await xtr17.disconnect()
         except Exception as e:
             pass
         try:
-            await str18.disconnect()
+            await xtr18.disconnect()
         except Exception as e:
             pass
         try:
-            await str19.disconnect()
+            await xtr19.disconnect()
         except Exception as e:
             pass
         try:
-            await str20.disconnect()
+            await xtr20.disconnect()
         except Exception as e:
             pass
         try:
-            await str21.disconnect()
+            await xtr21.disconnect()
         except Exception as e:
             pass
         try:
-            await str22.disconnect()
+            await xtr22.disconnect()
         except Exception as e:
             pass
         try:
-            await str23.disconnect()
+            await xtr23.disconnect()
         except Exception as e:
             pass
         try:
-            await str24.disconnect()
+            await xtr24.disconnect()
         except Exception as e:
             pass
         try:
-            await str25.disconnect()
+            await xtr25.disconnect()
         except Exception as e:
             pass
         try:
-            await str26.disconnect()
+            await xtr26.disconnect()
         except Exception as e:
             pass
         try:
-            await str27.disconnect()
+            await xtr27.disconnect()
         except Exception as e:
             pass
         try:
-            await str28.disconnect()
+            await xtr28.disconnect()
         except Exception as e:
             pass
         try:
-            await str29.disconnect()
+            await xtr29.disconnect()
         except Exception as e:
             pass
         try:
-            await str30.disconnect()
+            await xtr30.disconnect()
         except Exception as e:
             pass
         os.execl(sys.executable, sys.executable, *sys.argv)
@@ -1772,39 +1724,39 @@ async def restart(e):
         
         
         
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr1.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr2.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr3.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr4.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr5.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr6.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr7.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr8.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr9.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr11.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr12.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr13.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr14.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr16.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr17.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr18.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr19.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr20.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr21.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr22.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr23.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr24.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr25.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr26.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr27.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr28.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr29.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@xtr30.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀×××】\n\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n.alive\n.restart\n.join\n.pjoin\n.leave\n.ping\n\n【﻿𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n.raid\n.replyraid\n.dreplyraid\n.spam\n.bigspam\n.delayspam\nFor More Help Regarding Usage Of Plugins Type Plugins Name"
+       text = "〄 ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀×××】\n\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n.alive\n.restart\n.join\n.pjoin\n.leave\n\n【﻿𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n.raid\n.replyraid\n.dreplyraid\n.spam\n.bigspam\n.delayspam\nFor More Help Regarding Usage Of Plugins Type Plugins Name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1818,243 +1770,243 @@ print("")
 print("SMEX! 𝟳𝗛 𝗦𝗣𝗔𝗠𝗕𝗢𝗧 STARTED.")
 if len(sys.argv) not in (1, 3, 4):
     try:
-        str1.disconnect()
+        xtr1.disconnect()
     except Exception as e:
         pass
     try:
-        str2.disconnect()
+        xtr2.disconnect()
     except Exception as e:
         pass
     try:
-        str3.disconnect()
+        xtr3.disconnect()
     except Exception as e:
         pass
     try:
-        str4.disconnect()
+        xtr4.disconnect()
     except Exception as e:
         pass
     try:
-        str5.disconnect()
+        xtr5.disconnect()
     except Exception as e:
         pass
     try:
-        str6.disconnect()
+        xtr6.disconnect()
     except Exception as e:
         pass
     try:
-        str7.disconnect()
+        xtr7.disconnect()
     except Exception as e:
         pass
     try:
-        str8.disconnect()
+        xtr8.disconnect()
     except Exception as e:
         pass
     try:
-        str9.disconnect()
+        xtr9.disconnect()
     except Exception as e:
         pass
     try:
-        str10.disconnect()
+        xtr10.disconnect()
     except Exception as e:
         pass
     try:
-        str11.disconnect()
+        xtr11.disconnect()
     except Exception as e:
         pass
     try:
-        str12.disconnect()
+        xtr12.disconnect()
     except Exception as e:
         pass
     try:
-        str13.disconnect()
+        xtr13.disconnect()
     except Exception as e:
         pass
     try:
-        str14.disconnect()
+        xtr14.disconnect()
     except Exception as e:
         pass
     try:
-        str15.disconnect()
+        xtr14.disconnect()
     except Exception as e:
         pass
     try:
-        str16.disconnect()
+        xtr16.disconnect()
     except Exception as e:
         pass
     try:
-        str17.disconnect()
+        xtr17.disconnect()
     except Exception as e:
         pass
     try:
-        str18.disconnect()
+        xtr18.disconnect()
     except Exception as e:
         pass
     try:
-        str19.disconnect()
+        xtr19.disconnect()
     except Exception as e:
         pass
     try:
-        str20.disconnect()
+        xtr20.disconnect()
     except Exception as e:
         pass
     try:
-        str21.disconnect()
+        xtr21.disconnect()
     except Exception as e:
         pass
     try:
-        str22.disconnect()
+        xtr22.disconnect()
     except Exception as e:
         pass
     try:
-        str23.disconnect()
+        xtr23.disconnect()
     except Exception as e:
         pass
     try:
-        str24.disconnect()
+        xtr24.disconnect()
     except Exception as e:
         pass
     try:
-        str25.disconnect()
+        xtr25.disconnect()
     except Exception as e:
         pass
     try:
-        str26.disconnect()
+        xtr26.disconnect()
     except Exception as e:
         pass
     try:
-        str27.disconnect()
+        xtr27.disconnect()
     except Exception as e:
         pass
     try:
-        str28.disconnect()
+        xtr28.disconnect()
     except Exception as e:
         pass
     try:
-        str29.disconnect()
+        xtr29.disconnect()
     except Exception as e:
         pass
     try:
-        str30.disconnect()
+        xtr30.disconnect()
     except Exception as e:
         pass
 else:
     try:
-        str1.run_until_disconnected()
+        xtr1.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str2.run_until_disconnected()
+        xtr2.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str3.run_until_disconnected()
+        xtr3.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str4.run_until_disconnected()
+        xtr4.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str5.run_until_disconnected()
+        xtr5.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str6.run_until_disconnected()
+        xtr6.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str7.run_until_disconnected()
+        xtr7.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str8.run_until_disconnected()
+        xtr8.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str9.run_until_disconnected()
+        xtr9.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str10.run_until_disconnected()
+        xtr10.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str11.run_until_disconnected()
+        xtr11.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str12.run_until_disconnected()
+        xtr12.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str13.run_until_disconnected()
+        xtr13.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str14.run_until_disconnected()
+        xtr14.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str15.run_until_disconnected()
+        xtr15.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str16.run_until_disconnected()
+        xtr16.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str17.run_until_disconnected()
+        xtr17.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str18.run_until_disconnected()
+        xtr18.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str19.run_until_disconnected()
+        xtr19.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str20.run_until_disconnected()
+        xtr20.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str21.run_until_disconnected()
+        xtr21.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str22.run_until_disconnected()
+        xtr22.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str23.run_until_disconnected()
+        xtr23.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str24.run_until_disconnected()
+        xtr24.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str25.run_until_disconnected()
+        xtr25.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str26.run_until_disconnected()
+        xtr26.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str27.run_until_disconnected()
+        xtr27.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str28.run_until_disconnected()
+        xtr28.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str29.run_until_disconnected()
+        xtr29.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        str30.run_until_disconnected()
+        xtr30.run_until_disconnected()
     except Exception as e:
         pass

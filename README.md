@@ -21,8 +21,8 @@
 
 ### Heroku
 
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-- [![Deploy](https://img.shields.io/badge/DEPLOY%20VIA%20TELEGRAM%20BOT-blueviolet?style=for-the-badge&logo=telegram)](https://telegram.dog/XTZ_HerokuBot?start=c2FqYWxyb2NrL0Jlcmxpbi1TcGFtYm90IG1haW4)
+- [![Deploy](https://dashboard.heroku.com/new?template=https://github.com/7Hofficial/7h-Spam)
+- [![Deploy](https://img.shields.io/badge/DEPLOY%20VIA%20TELEGRAM%20BOT-blueviolet?style=for-the-badge&logo=telegram)](https://telegram.dog/XTZ_HerokuBot?start=N0hvZmZpY2lhbC83aC1TcGFtIG1haW4)
 
 ### String Generator
 - [![GenerateString](https://camo.githubusercontent.com/b8f040a155a621627eaf4fbc3d2bfc3201053c9184981c58a3195c6254865865/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47656e65726174652532304f6e2532305265706c2d626c756576696f6c65743f7374796c653d666f722d7468652d6261646765266c6f676f3d6170707665796f72)](https://repl.it/@TeamUltroid/UltroidStringSession#main.py)
@@ -39,4 +39,6 @@ Any queries or issue contact
 ## CREDITS
 - [7H-Official](https://t.me/CHAT_INJECTOR7H)
 - [Team-7H](https://t.me/INJECTOR_7H)
-- [CONTACT](https://t.me/SSOHERO)
+- [CONTACT](https://t.me/FLASH_7H)
+- [TEAM YUKKI](https://github.com/notreallyshikhar)
+- [LONE-WOLF](https://github.com/Lone-Wolf250)
