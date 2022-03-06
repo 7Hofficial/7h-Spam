@@ -1,9 +1,7 @@
 {
-    "name": "♛ ╔»⟦★𝟳𝗛★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT ♛",
-  "description": "A Powerful Telegram SpammerBot based on telethon.",
-  "website": "https://t.me/INJECTOR_7H",
-  "repository": "https://github.com/7H/7Hofficial",
-  "logo": "https://te.legra.ph/file/377f9368698cdb86dd50e.jpg",
+  "name": "7H-SPAMBOT",
+  "description": "A POWERFULL AND FAST SPAM BOT.",
+  "logo": "",
   "keywords": [
     "spambot",
     "telegram",
@@ -13,11 +11,6 @@
       "STRING": {
         "description": "Telethon String Session",
         "value": "",
-        "required": false
-      },
-      "API_ID": {
-        "description": "Fill API ID ",
-        "value": "2842433",
         "required": true
       },
       "STRING2": {
@@ -64,11 +57,6 @@
         "description": "Telethon String Session",
         "value": "",
         "required": false
-      },
-      "API_HASH": {
-        "description": "Api Hash get it from telegram.org",
-        "value": "7ff7db9b8df7a4acdb20920d84bb1a84",
-        "required": true
       },
       "STRING11": {
         "description": "Telethon String Session",
@@ -120,7 +108,7 @@
         "value": "",
         "required": false
       },
-        "STRING21": {
+      "STRING21": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
@@ -145,34 +133,19 @@
         "value": "",
         "required": false
       },
-      "STRING26": {
+      "API_ID": {
         "description": "Telethon String Session",
-        "value": "",
-        "required": false
+        "value": "15003082",
+        "required": true
       },
-      "STRING27": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING28": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING29": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING30": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
+      "API_HASH": {
+        "description": "Api Hash",
+        "value": "77a98464c19b8ef098237153d11e633b",
+        "required": true
       },
       "SUDO": {
-        "description": "Fill all Sudo Users Id",
-        "value": "",
+        "description": "𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁𝚂 𝙸𝙳",
+        "value": "5297056649",
         "required": true
       }
   },
